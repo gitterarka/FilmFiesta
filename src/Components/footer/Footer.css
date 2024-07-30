@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&display=swap');
+
+footer{
+    width:100%;
+    background:rgb(51, 51, 56);
+    color:#fff;
+    padding:3rem 5rem 0;
+    height:50vh;
+    border-top-left-radius: 125px;
+    font-size:13px;
+    line-height:20px;
+    font-family: 'DM Sans', sans-serif;
+}
+  
+.footer-row{
+  width:100%;
+  display:flex;
+  flex-wrap: wrap;
+  align-items:center;
+  justify-content: space-between;
+  
+}
+
+.footer-col{
+  flex-basis:20%;
+  cursor: pointer;
+}
+.footer-col p{
+  font-size:1rem;
+  color:snow;
+  width:8rem;
+}
+.hero-logo{
+  width:150px;
+  height:50px;
+  margin-bottom: 20px;
+  
+}
+
+.address h4{
+  font-size: 1rem;
+}
+
+.footer-col h2{
+  width:fit-content;
+  margin-bottom:30px;
+  position:relative;
+  font-size:1.5rem;
+  
+}
+
+.email-id{
+  width:fit-content;
+  border-bottom:1px solid #ccc;
+  margin:20px 0;
+}
+
+#link{
+  padding:5px 0;
+}
+
+
+.form{
+  padding-bottom: 15px;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 50px;
+}
+
+input{
+  border:0;
+  outline:0;
+  background:none;
+  color:snow;
+  font-size:20px;
+}
+
+#icon i{
+  font-size:1.5rem;
+}
+  @media only screen and (min-width: 768px) {
+    .icon-resp{
+      display: none;
+    }
+  }

@@ -1,0 +1,96 @@
+ @media (max-width: 768px) {
+    .movie {
+        width: 100%;
+        height:180vh;
+        padding-top:6rem;
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+    }
+    .movie_intro{
+       display: none;
+    }
+    .movie_detail_left{
+        position: absolute;
+        top:-1rem;
+        left:1rem;
+    }
+    
+    .movie_detail_right{
+        position: absolute;
+        top:30rem;
+        left:1rem;
+        
+    }
+    .movie__detail_right_top{
+        color:black;
+    }
+    .movie-trailer{
+        margin-left:-15rem;
+    }
+    
+    .movie__name p{
+        font-weight:800;
+        font-size:1.5rem;
+        margin-bottom: 1rem;
+    }
+    .movie__genres{
+        width:150%;
+    }
+    .movie__genre_list{
+        padding:2px;
+        border: 2px solid #000;
+        color:black;
+    }
+    
+    
+    .movie__detail_right_bottom{
+        margin-top: 2rem;
+    }
+    .movie__detail_right_bottom button{
+        width:8rem;
+    }
+    .synopsisText{
+        display: none;
+    }
+    .overview{
+       display: none;
+    }
+    .movie__heading{
+        font-size:1.5rem;
+        margin-top:35rem;
+    }
+    
+    .movie__production{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size:10px;
+        font-weight:600;
+    }
+    
+    .movie__productionComapany {
+        width:100px;
+        margin: 2rem;
+    }
+    .modal-content{
+        width:10rem;
+        height:10rem;
+    }
+    #movie_trailer_modal{
+        margin-top: 20rem;
+        margin-left:2rem;
+    }
+
+    #book_ticket{
+        display:none;
+    }
+
+    #book_ticket_mobile{
+        display:contents;
+    }
+    
+    
+ 
+} 
+

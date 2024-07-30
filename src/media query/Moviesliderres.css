@@ -1,0 +1,56 @@
+/* Media query for mobile responsiveness */
+@media (max-width: 768px) {
+    .home1{
+        display: contents;
+    }
+    .home2{
+        display:none;
+    }
+
+/* Adjust the position of carousel control arrows */
+
+.poster{
+    background-color:#F0F0F0;
+
+}
+.posterImage{
+    height:350px;
+    
+}
+
+.posterImage > img {
+  margin-top:4rem;
+  height:350px;
+}
+
+.posterImage__overlay {
+    background-image: linear-gradient(rgb(0,0,0,0), rgb(0,0,0,1));
+}   
+
+
+.posterImage__title {
+    font-weight: 900;
+    font-size:1.5rem;
+    margin-left: -4rem;
+    width:160%;
+}
+
+.posterImage__runtime {
+    font-size:1rem;
+    margin-left: -4rem;
+    /* margin-bottom: 1rem; */
+}
+
+.posterImage__rating {
+    margin-left:2rem;
+}
+
+.posterImage__description {
+    display: none;
+}
+
+.carousel.carousel-slider .control-arrow {
+    display: flex;
+}
+
+}
